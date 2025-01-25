@@ -1,0 +1,141 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-pai{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+
+    position: relative;
+    top: 30px;
+    left: 40px;
+    
+}
+
+.ele-one{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(152, 157, 156, 1);
+    margin-right: 22px;
+}
+
+.hea-but{
+    width: 130px;
+    height: 41px;
+    background: rgba(102, 90, 225, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 50px;
+}
+.img-div{
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 300px;
+
+}
+main{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    color: rgba(81, 81, 81, 1);
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+p{
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(132, 132, 132, 1);
+    line-height: 29px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.but-main{
+    width: 239px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(173, 255, 0, 1);
+    border: none;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media only screen and (max-width: 900px){
+
+    
+    header{
+        display: none;
+    }
+
+    .img-div{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: static;
+        text-align: center;
+    }
+    
+    
+    .img{
+        max-width:  70%;
+        margin: 200px 54px 0 45px;
+        
+    }
+    main{
+        display: block;
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: static;
+        
+      
+    }
+
+    h1{
+        
+        width: auto;
+        font-size: 50px;
+
+    }
+
+    h2{
+        font-size: 30px;
+       
+    }
+        
+    p{
+        display: none;
+    }
+
+    .but-main{
+        
+        margin-top: 30px;
+
+
+     
+    }
+    
+}
